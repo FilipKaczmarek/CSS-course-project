@@ -101,3 +101,21 @@
 #premium .package_subtitle {
     color: #bbb;
 }
+
+@media (min-width: 40rem) {
+    main {
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    .plan-section {
+      border-left: 4px solid rgba(14, 79, 31, 0.95);
+    }
+
+    #free {
+        border-right: 4px solid rgba(14, 79, 31, 0.95);
+    }
+}
